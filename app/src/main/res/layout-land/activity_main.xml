@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_to_db"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="100dp"
+        android:text=" MY MEAL APP"
+        android:textColor="#606060"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="256dp"
+        android:layout_height="291dp"
+        android:layout_marginLeft="-260dp"
+        android:layout_marginTop="240dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/addMealstoDbBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="Add Meals to DB"
+            android:textColor="#606060"
+            android:textSize="18sp"
+            tools:textStyle="bold" />
+
+        <Button
+            android:id="@+id/SearchforMealsByIngredientbtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#606060"
+            android:text="Search for Meals By Ingredient"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="256dp"
+        android:layout_height="291dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="220dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/searchForMealbtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="Search for Meals"
+            android:textColor="#606060"
+            android:textSize="18sp"
+            tools:textStyle="bold" />
+
+        <Button
+            android:id="@+id/searchForMealNamebtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#606060"
+            android:text="Search for Meals By MealName"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            tools:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
